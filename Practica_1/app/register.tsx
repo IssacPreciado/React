@@ -67,7 +67,7 @@ export default function Register() {
     setPassword('');
     setConfirmPassword('');
     router.push({
-        pathname:"./index",
+        pathname:"/",
   });
   };
 

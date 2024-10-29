@@ -100,7 +100,7 @@ const Index = () => {
     setText('');
     setNumber('');
   };
-
+ 
   const onPressRegister = () => {
     router.push({
       pathname: "./register",
@@ -113,6 +113,7 @@ const Index = () => {
         <Image
           source={require("./src/escudo6.jpg")}
           style={{ width: 150, height: 150 }}
+          testID="icon-image"
         />
       </ImageContainer>
 
